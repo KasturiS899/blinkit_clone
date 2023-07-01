@@ -16,9 +16,21 @@ body{
 .logo{
     border-right: 1px solid rgb(230, 225, 225); 
 }
-::-webkit-scrollbar{
-    display:none
-}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d4d3d3; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d1d1d1; 
+  }
 
 .location>h5{
     font-weight:700;
